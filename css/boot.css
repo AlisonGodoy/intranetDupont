@@ -1,0 +1,26 @@
+body{
+	background-color: rgb(12,60,96);
+}
+
+.imglogistica{
+
+  margin-left: 80px;	
+	width: 150px;
+	height: 125px;
+
+	animation-duration: 2s;
+  animation-name: animation2;
+  animation-iteration-count: finite;
+}
+
+@keyframes animation2 {
+  from {
+  	margin-left: 80px;
+    width: 90px;
+    height: 90px;
+  }
+
+  to {	
+	width: 150px;
+	height: 125px;
+}

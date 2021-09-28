@@ -1,0 +1,187 @@
+body{
+  height: 950px;
+  width: 100%;
+}
+
+#corpo{
+  height: 100%;
+  width: 100%;
+}
+
+#imgfundo{
+  height: 100%;
+  width: 100%;
+}
+
+
+#titulolog{
+  width: 100%;
+  height: 700px;
+}
+
+#escrtlog{
+  width: 100%;
+  height: 700px;
+  margin-top: -950px;
+  filter: opacity(80%);
+  }
+
+
+#escrtselec{
+  width: 850px;
+  height: 450px;
+  margin-top: -700px;
+  margin-left: 250px;
+  }
+
+#escritaselecione{
+  width: 100%;
+  height: 100%;
+}
+
+#botvoltar{
+  width: 125px;
+  height: 75px;
+  margin-top: -375px;
+  margin-left: 1075px;
+  position: absolute;
+}
+
+#voltarlog{
+  width: 100%;
+  height: 100%;
+}
+
+#botvoltar:hover{
+  filter: opacity(70%);
+}
+
+#botsair{
+  width: 115px;
+  height: 70px;
+  margin-top: -370px;
+  margin-left: 1190px;
+  position: absolute;
+}
+
+#sairlog{
+  width: 100%;
+  height: 100%;
+}
+
+#botsair:hover{
+  filter: opacity(70%);
+}
+
+#opc1{
+  width: 150px;
+  height: 150px;
+  margin-left: 600px;
+  margin-top: -150px;
+  position: absolute;
+}
+
+#opcao1{
+  width: 100%;
+  height: 100%;
+  filter: sepia(150%);
+}
+
+#imgLogo{
+  width: 110px;
+  height: 110px;
+  margin-top: -130px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#opc1:hover{
+  filter: opacity(60%);
+}
+
+
+#escritaLoad{
+  width: 350px;
+  height: 80px;
+  margin-left: 500px;
+  filter: contrast(200%);
+}
+
+#loadEscrito{
+  width: 100%;
+  height: 100%;
+}
+
+
+#opc2{
+  width: 150px;
+  height: 150px;
+  margin-left: 500px;
+  margin-top: -150px;
+  position: absolute;
+}
+
+#opcao2{
+  width: 100%;
+  height: 100%;
+}
+
+#opc2:hover{
+  filter: opacity(60%);
+}
+
+#opc3{
+  width: 150px;
+  height: 150px;
+  margin-left: 700px;
+  margin-top: -150px;
+  position: absolute;
+}
+
+#opcao3{
+  width: 100%;
+  height: 100%;
+}
+
+#opc3:hover{
+  filter: opacity(60%);
+}
+
+#opc4{
+  width: 150px;
+  height: 150px;
+  margin-left: 900px;
+  margin-top: -150px;
+  position: absolute;
+}
+
+#opcao4{
+  width: 100%;
+  height: 100%;
+}
+
+#opc4:hover{
+  filter: opacity(60%);
+}
+
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+animation: fadeIn 0.5s ease-in-out;
+}
+
+.fadeImg {
+opacity:0;
+animation: fadeIn 0.5s ease-in-out; 
+animation-fill-mode:forwards;}
+
+
+.fadeImg2 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay: 0.2s;}

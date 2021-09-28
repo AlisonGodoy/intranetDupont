@@ -1,0 +1,235 @@
+body{
+  height: 950px;
+  width: 100%;
+}
+
+
+#selecionesetor{
+  margin-top: -900px;
+  height: 70px;
+  width: 650px;
+}
+
+#corpo{
+  height: 100%;
+  width: 100%;
+}
+
+#imgfundo{
+  width: 100%; 
+  height: 950px;
+}
+
+#figuralogistica{
+  width: 150px;
+  height: 150px;
+  margin-top: -1000px;
+
+}
+
+#iconelogistica{
+  width: 100%;
+  height: 100%;
+  margin-left: -75px;
+}
+
+
+#figurasetorti{
+  width: 150px;
+  height: 150px;
+  margin-top: -250px;
+
+}
+
+#iconesetorti{
+  width: 100%;
+  height: 100%;
+  margin-left: -75px;
+}
+
+#figuracomercial{ 
+  width: 150px;
+  height: 150px;
+  margin-top: -250px;
+
+}
+
+#iconecomercial{
+  width: 100%;
+  height: 100%;
+    margin-left: -75px;
+}
+
+#figurafinanceiro{ 
+  width: 150px;
+  height: 150px;
+  margin-top: -250px;
+
+}
+
+#iconefinanceiro{
+  width: 100%;
+  height: 100%;
+    margin-left: -75px;
+}
+
+
+#figuragrupo{ 
+  width: 550px;
+  height: 300px;
+  margin-top: -10px;
+
+  filter: opacity(10%);
+}
+
+#logogrupo{
+  width: 100%;
+  height: 100%;
+  margin-left: 420px;
+}
+
+button{
+  margin-top: -527px;
+  margin-left: 1200px;
+}
+
+.bt{ position: absolute;
+  width: 60px;
+  height: 45px;
+}
+
+#teste{
+  width: 20px;
+  height: 20px;
+}
+
+.bt {
+border:3px solid;
+border-radius:10px;
+display:inline-block;
+cursor:pointer;
+font-family:Candara;
+font-weight: bolder;
+font-size:18px;
+padding:6px 10px;
+text-decoration:none;
+border-color: black;
+background: white;
+color:rgb(12,60,96);
+text-shadow:0px 1px 0px gainsboro;
+}
+
+.bt:hover,
+.bt:focus{
+  filter: opacity(10%);
+}
+
+/*-------------------------ANIMAÇÕES---------------------------------------*/
+#figuralogistica{
+  width: 150px;
+  height: 150px;
+  margin-top: -800px;
+  margin-left: 375px;
+
+  animation-duration: 2s;
+  animation-name: fadein;
+  animation-iteration-count: finite;
+}
+
+#figuralogistica:hover,
+#figuralogistica:focus{
+  filter: opacity(10%);
+}
+
+
+#figurasetorti{ 
+  width: 150px;
+  height: 150px;
+  margin-top: -150px;
+  margin-left: 575px;
+
+  animation-duration: 2s;
+  animation-name: fadein;
+  animation-iteration-count: finite;
+  animation-delay: 0.5s;
+}
+
+#figurasetorti:hover,
+#figurasetorti:focus{
+   filter: opacity(10%);
+}
+
+
+#figuracomercial{ 
+  width: 150px;
+  height: 150px;
+  margin-top: -150px;
+  margin-left: 775px;
+
+  animation-duration: 2s;
+  animation-name: fadein;
+  animation-iteration-count: finite;
+  animation-delay: 1s;
+
+}
+
+#figuracomercial:hover,
+#figuracomercial:focus{
+  filter: opacity(10%);
+}
+
+#figurafinanceiro{ 
+  width: 150px;
+  height: 150px;
+  margin-top: -150px;
+  margin-left: 975px;
+
+  animation-duration: 2s;
+  animation-name: fadein;
+  animation-iteration-count: finite;
+  animation-delay: 1.5s;
+
+}
+
+#figurafinanceiro:hover,
+#figurafinanceiro:focus{
+  filter: opacity(10%);
+}
+
+
+
+/*-----------------------------------CONFIGURAÇÕES ANIMAÇÕES-----------------------------------------*/
+
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+animation: fadeIn 0.5s ease-in-out;
+}
+
+.fadeImg {
+opacity:0;
+animation: fadeIn 0.5s ease-in-out; 
+animation-fill-mode:forwards;}
+
+
+.fadeImg2 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay: 0.2s;}
+
+.fadeImg3 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay:0.4s;}
+
+.fadeImg4 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay:0.6s;}

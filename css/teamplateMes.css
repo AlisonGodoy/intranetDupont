@@ -1,0 +1,298 @@
+body{
+  height: 950px;
+  width: 100%;
+}
+
+#corpo{
+    width: 100%;
+    height: 100%;
+}
+
+#fundoMes{
+    position: ;
+    width: 100%;
+    height: 100%;
+}
+
+#escrtMes{
+    position: absolute;
+    margin-top: -895px;
+    margin-left: 475px;
+    width: 325px;
+    height: 40px;
+    filter: contrast(-300%);
+}
+
+#calendario{
+    width: 600px;
+    height: 500px;
+    margin-top: -950px;
+    margin-left: 350px;
+}
+
+#imgCalendar{
+    width: 100%;
+    height: 100%;
+
+}
+
+#opcaoJaneiro{
+    position: relative;
+    margin-top: -375px;
+    margin-left: 425px;
+    width: 150px;
+    height: 52px;
+}
+
+#opcJaneiro{
+    width: 100%;
+    height: 100%;
+}
+
+#opcJaneiro:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoFevereiro{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 575px;
+    width: 150px;
+    height: 50px;
+}
+
+#opcFevereiro{
+    width: 100%;
+    height: 100%;
+}
+
+#opcFevereiro:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoMarco{
+    position: absolute;
+    margin-top: -52px;
+    margin-left: 725px;
+    width: 150px;
+    height: 55px;
+}
+
+#opcMarco{
+    width: 100%;
+    height: 100%;
+}
+
+#opcMarco:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoAbril{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 425px;
+    width: 150px;
+    height: 50px;
+}
+
+#opcAbril{
+    width: 100%;
+    height: 100%;
+}
+
+#opcAbril:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoMaio{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 575px;
+    width: 150px;
+    height: 50px;
+}
+
+#opcMaio{
+    width: 100%;
+    height: 100%;
+}
+
+#opcMaio:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoJunho{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 725px;
+    width: 150px;
+    height: 52px;
+}
+
+#opcJunho{
+    width: 100%;
+    height: 100%;
+}
+
+#opcJunho:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoJulho{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 425px;
+    width: 150px;
+    height: 55px;
+}
+
+#opcJulho{
+    width: 100%;
+    height: 100%;
+}
+
+#opcJulho:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoAgosto{
+    position: relative;
+    margin-top: -55px;
+    margin-left: 575px;
+    width: 150px;
+    height: 55px;
+}
+
+#opcAgosto{
+    width: 100%;
+    height: 100%;
+}
+
+#opcAgosto:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoSetembro{
+    position: relative;
+    margin-top: -55px;
+    margin-left: 725px;
+    width: 150px;
+    height: 55px;
+}
+
+#opcSetembro{
+    width: 100%;
+    height: 100%;
+}
+
+#opcSetembro:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoOutubro{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 425px;
+    width: 150px;
+    height: 52px;
+}
+
+#opcOutubro{
+    width: 100%;
+    height: 100%;
+}
+
+#opcOutubro:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoNovembro{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 575px;
+    width: 150px;
+    height: 52px;
+}
+
+#opcNovembro{
+    width: 100%;
+    height: 100%;
+}
+
+#opcNovembro:hover{
+  filter: opacity(70%);
+}
+
+
+#opcaoDezembro{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 725px;
+    width: 150px;
+    height: 52px;
+}
+
+#opcDezembro{
+    width: 100%;
+    height: 100%;
+}
+
+#opcDezembro:hover{
+  filter: opacity(70%);
+}
+
+
+#botVoltar{
+  width: 115px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 760px;
+  position: absolute;
+}
+
+#voltarMes{
+  width: 100%;
+  height: 100%;
+}
+
+#botVoltar:hover{
+  filter: opacity(70%);
+}
+
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+animation: fadeIn 0.5s ease-in-out;
+}
+
+.fadeImg {
+opacity:0;
+animation: fadeIn 0.5s ease-in-out; 
+animation-fill-mode:forwards;}
+
+
+.fadeImg2 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay: 0.2s;}
+
+.fadeImg3 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay: 1s;}

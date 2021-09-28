@@ -1,0 +1,26 @@
+body{
+  height: 950px;
+  width: 100%;
+}
+
+#corpo{
+  height: 100%;
+  width: 100%;
+}
+
+#imgConstrucao{
+  width: 100%;
+  height: 100%;
+}
+
+#botOk{
+  width: 100px;
+  height: 40px;
+  margin-top: -450px;
+  margin-left: 620px;
+}
+
+#imgBotOk{
+  width: 100%;
+  height: 100%;
+}
