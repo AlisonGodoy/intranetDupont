@@ -7,7 +7,7 @@ include('../Control/controleSession.php');
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-	    <title>Setor TI</title>
+	    <title>Suporte TI</title>
 
         <!-- Faz referência a biblioteca Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > 
@@ -24,10 +24,11 @@ include('../Control/controleSession.php');
         <!-- Faz referência a arquivo .css personalizado -->
         <link rel="stylesheet" href="../css/teamplateTi.css" >
 	</head>
-
-
 	<body>
-	<div id="corpo"><img id="imgConstrucao" src="../imagem/imgConstrucao.png">
-	<div id="botOk"><a href="tiSuporte.php"><img id="imgBotOk" src="../imagem/botOk.png"></a></div>
+
+	<?php
+	echo "Cheguei";	
+	?>
+
 	</body>
 </html>
