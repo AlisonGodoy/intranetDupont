@@ -24,11 +24,8 @@ include('../Control/controleSession.php');
         <!-- Faz referência a arquivo .css personalizado -->
         <link rel="stylesheet" href="../css/teamplateTi.css" >
 	</head>
-	<body>
 
-	<?php
-	echo "Cheguei";	
-	?>
+	<iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiNTk5YTQ1Y2ItOTc0Ny00YmIwLThkOGUtYjk0NTc2MjFlZGE0IiwidCI6IjIwMmU1YmIyLTZjZGUtNDlmZi04N2ViLTQ1ODhjYWIxMjI4ZSJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 	</body>
 </html>
