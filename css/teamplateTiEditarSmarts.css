@@ -1,0 +1,43 @@
+body{
+	background-image: url(../imagem/fundo6);
+}
+
+
+#controleSmartModal{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+
+#exampleModalLabel{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: Oswald;
+	color: midnightblue;
+}
+
+.modal-content{
+	background-color: gainsboro;
+	border: 2px solid;
+	border-color: black;
+}
+
+#recipient-desc_marca{
+	text-align: center;
+}
+
+#recipient-desc_modelo{
+	text-align: center;
+}
+
+#recipient-imei{
+	text-align: center;
+}
+
+#recipient-pulsus{
+	text-align: center;
+}

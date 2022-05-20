@@ -1,0 +1,150 @@
+/*RESET*/
+*{
+    width: 100%;
+    font-family: Nunito, sans-serif;
+}
+
+/*BODY*/
+body{
+    background: url(../imagem/fundo.png);
+}
+
+/*CABEÇALHO*/
+.cabecalho{
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, #062F78,#7A93BC);
+    padding: 0.3% 0%;
+}
+
+.cabecalho h1{
+    font-size: 2em;
+    color: white;
+}
+
+img{
+ border-radius: 15px;
+
+}
+
+/*OPÇÕES*/
+.opcoes{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.opcoes2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.opcao{
+    width: 20%;
+    background: gainsboro;
+    margin-top: 5%;
+    box-shadow:  -0.6em 0 0.8em rgb(58, 58, 58);
+    border-radius: 15px;
+}
+
+.opcao h2{
+    text-align: center;
+    font-size: 0.4em;
+}
+
+/*RODAPÉ*/
+.rodape{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background: #062F78;
+    margin-top: 10%;
+    padding: 1.5% 0%;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;}
+
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+
+#fadeImg {
+opacity:0;
+animation: fadeIn 0.5s ease-in-out; 
+animation-fill-mode:forwards;}
+
+
+#fadeImg2 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay: 0.2s;}
+
+
+@media only screen and (min-width: 768px) {
+    .opcoes{
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0.5%;
+    }
+
+    .opcoes2{
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0%;
+    }
+
+    .opcao{
+        width: 6%;
+        box-shadow:  -0.6em 0 0.8em rgb(58, 58, 58);
+    }
+
+    .opcao h2{
+        font-size: 0.7em;
+    }
+
+    .rodape{
+
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .opcoes{
+        flex-direction: row;
+        align-items: center;
+        margin-top: -2%;
+    }
+
+    .opcoes2{
+        flex-direction: row;
+        align-items: center;
+        margin-top: -2%;
+    }
+
+
+    .opcao{
+        width: 11%;
+        box-shadow:  -0.6em 0 0.8em rgb(58, 58, 58);
+    }
+
+    .opcao h2{
+        font-size: 0.7em;
+    }
+
+    .rodape{
+        position: absolute;
+        bottom: 0;
+    }
+}

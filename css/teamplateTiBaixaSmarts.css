@@ -1,0 +1,135 @@
+body{
+	background-image: url(../imagem/fundo);
+}
+
+.cabecalho{
+	width: 100%;
+}
+
+.menu{
+background: linear-gradient(to right, #062F78,#7A93BC);
+display: flex;
+font-family: Oswald;
+list-style:none;
+justify-content: center;
+font-size: 1em;
+padding: 0.3%;
+}
+
+
+.menu li a{color:white; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#B0CAD9;
+color:gray;
+text-shadow:0px 0px 3px white;
+border-radius: 30px;
+}
+
+#botTiBaixaSmarts{
+color:white;
+text-shadow:0px 0px 3px #fff;
+border-radius: 30px;
+}
+
+#botTiBaixaSmarts a{
+background:#B0CAD9;
+color:gray;
+text-shadow:0px 0px 3px #fff;
+border-radius: 30px;
+}
+
+
+
+section{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: Oswald;
+	font-weight: 20px;
+}
+
+section h1{
+	color: midnightblue;
+	padding: 2%;
+	background-color: gainsboro;
+	border: 2px inset;
+	border-radius: 15px;
+}
+
+
+
+.divTotal{
+	width: 15%;
+}
+
+.divTotal td{
+	background-color: midnightblue;
+	color: white;
+	border-radius: 15px;
+	border: none;
+	text-align: center;
+	font-weight: 700;
+}
+
+#tabelaTotal{
+	border: none;
+}
+
+#tabelaTotal tr{
+	border: none;
+}
+
+#tabelaBaixaTi{
+	font-family: Oswald;
+	width: 100%;
+	border: 2px solid;
+	border-color: black;
+	text-align: center;
+}
+
+
+#tabelaBaixaTi td{
+	border: 2px solid;
+	border-color: black;
+}
+
+th{
+	background-color: gainsboro;
+	border: 2px solid;
+	border-color: black;
+}
+
+tr{ 
+	background-color: white;
+	border: 2px solid;
+	border-color: black;
+}
+
+#tabelaBaixaTi td a{
+	text-decoration: none;
+}
+
+#dev{
+	display: flex;
+	justify-content: space-around;
+	border: none !important;
+}
+
+
+
+#tituloIdEstoque{border: 2px solid; background-color: #042D7C; color: white;border-color: black; text-align: center;}
+#tituloDataBaixa{border: 2px solid;background-color: #042D7C;color: white;border-color: black; text-align: center;}
+#tituloMarca{border: 2px solid;background-color: #042D7C;color: white;border-color: black; text-align: center;}
+#tituloModelo{border: 2px solid;background-color: #042D7C;color: white;border-color: black; text-align: center;}
+#tituloImei{border: 2px solid; background-color: #042D7C; color: white;border-color: black; text-align: center;}
+#tituloPulsus{border: 2px solid; background-color: #042D7C; color: white;border-color: black; text-align: center;}
+#tituloMotivo{border: 2px solid; background-color: #042D7C; color: white;border-color: black; text-align: center;}
+#tituloDevolvido{border: 2px solid; background-color: #042D7C; color: white;border-color: black; text-align: center;}
+#tituloGerarContrato{border: 2px solid; background-color: #042D7C; color: white;border-color: black; text-align: center;}
+
+@media only screen and (min-width: 768px){
+	.menu{
+		font-size: 20;
+	}
+}

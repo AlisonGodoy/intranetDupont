@@ -1,0 +1,144 @@
+*{
+    font-family: Nunito, sans-serif;
+}
+
+body{
+    background-image: url(../imagem/fundo.png);
+}
+
+.cabecalho{
+    width: 100%;
+    background: linear-gradient(to right, #062F78,#7A93BC);
+    padding: 0.3% 0%;
+}
+
+.cabecalho h1{
+    text-align: center;
+    color: white;
+}
+
+.divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-size: 1em;
+}
+
+.divDupont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    border-right: 2px solid rgb(62, 130, 255);
+}
+.opcaoDp1{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background: gainsboro;
+    width: 90%;
+    box-shadow:  -0.6em 0 0.8em rgb(58, 58, 58);
+}
+
+.opcaoDp1:nth-child(3){
+    margin-top: 5%;
+}
+
+.opcaoDp1 img{
+    width: 22%;
+    float: left;
+    margin-top: 3%;
+}
+
+.opcaoDp1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+.divDupont2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    border-left: 2px solid rgb(62, 130, 255);
+}
+
+
+.opcaoDp2{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background: gainsboro;
+    width: 90%;
+    box-shadow:  -0.6em 0 0.8em rgb(58, 58, 58);
+}
+
+.opcaoDp2:nth-child(3){
+    margin-top: 5%;
+}
+
+.opcaoDp2 img{
+    width: 22%;
+    float: left;
+    margin-top: 3%;
+}
+
+.opcaoDp2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+.rodape{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background: #062F78;
+    bottom: 0;
+    padding: 1% 0%;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;}
+
+
+
+
+
+@media only screen and (min-width: 768px){
+
+    .opcaoDp1{
+        width: 90%;
+        
+    }
+
+    .opcaoDp1 a{
+        width: 100%;
+        margin-top: 1%;
+        font-size: 1.2em;
+    }
+
+    .opcaoDp1 img{
+        width: 15%;
+        margin-top: 0%;
+    }
+
+    .opcaoDp2{
+        width: 90%;
+    }
+
+    .opcaoDp2 a{
+        width: 100%;
+        margin-top: 1%;
+        font-size: 1.2em;
+    }
+
+    .opcaoDp2 img{
+        width: 15%;
+        margin-top: 0%;
+    }
+}

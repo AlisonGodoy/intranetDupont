@@ -80,8 +80,7 @@ $_SESSION['mesSelecionado'] = $mes;
 
     <body id="tudo">
       <header id="cabecalho">
-        <img id="logoloadsafe" src="../imagem/logoloadsafe.png">
-        <img id="loadsafeescrt" src="../imagem/lsescrito.png">
+        <img id="logoloadsafe" src="../imagem/logoloadsafeofc.png">
         <img id="imgAno" src="../imagem/2021.jfif">
         <h1><?php echo $mesEscrito ?></h1>
       </header>

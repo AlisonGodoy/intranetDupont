@@ -1,0 +1,154 @@
+body{
+	background-image: url(../imagem/fundo);
+}
+
+.cabecalho{
+	width: 100%;
+}
+
+.menu{
+background: linear-gradient(to right, #062F78,#7A93BC);
+display: flex;
+font-family: Oswald;
+list-style:none;
+justify-content: center;
+font-size: 1em;
+padding: 0.3%;
+}
+
+
+.menu li a{color:white; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#B0CAD9;
+color:gray;
+text-shadow:0px 0px 3px white;
+border-radius: 30px;
+}
+
+#botTiCadastroSmarts{
+background:midnightblue;
+color:white;
+text-shadow:0px 0px 3px #fff;
+border-radius: 30px;
+}
+
+#botTiCadastroSmarts a{
+background:#B0CAD9;
+color:gray;
+text-shadow:0px 0px 3px #fff;
+border-radius: 30px;
+}
+
+
+#titulo{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: Oswald;
+	font-weight: 20px;
+}
+
+#titulo h1{
+	color: midnightblue;
+	padding: 2%;
+	background-color: gainsboro;
+	border: 2px inset;
+	border-radius: 15px;
+}
+
+#opcoes{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: Oswald;
+	list-style:none;
+}
+
+.opcao{
+	background: gainsboro;
+	width: 50%;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow:  -0.6em 0 0.8em rgb(58, 58, 58);
+}
+
+.opcao a{
+	width: 100%;
+	text-decoration: none;
+}
+
+.opcao a img{
+	width: 40%;
+}
+
+.opcao a h3{
+	font-size: 1.2em;
+	color: black;
+	font-weight: 700;
+}
+
+.opcao:hover{
+	opacity: 50%;
+}
+
+
+@media only screen and (min-width: 768px){
+
+.menu{
+	font-size: 20;
+}
+
+#opcoes{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: Oswald;
+	list-style:none;
+}
+
+.opcoes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+.opcao{
+	display: flex;
+	flex-direction: column;
+	background: gainsboro;
+	width: 15%;
+	text-align: center;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 15px;
+	padding: 2% 0%;
+	box-shadow:  -0.6em 0 0.8em rgb(58, 58, 58);
+}
+
+.opcao a{
+	width: 100%;
+	text-decoration: none;
+}
+
+.opcao a img{
+	width: 40%;
+}
+
+.opcao a h3{
+	font-size: 1.2em;
+	color: black;
+	font-weight: 700;
+}
+
+.opcao:hover{
+	opacity: 50%;
+}
+}

@@ -9,9 +9,9 @@ if(@$_GET['error'] == 't'){
 
 ?> 
 <html>
-	<head>
-	    <meta charset="UTF-8"/>
-	    <title>Intranet Grupo Dupont</title>
+  <head>
+      <meta charset="UTF-8"/>
+      <title>Intranet Grupo Dupont</title>
 
       <!-- Faz referência a biblioteca Bootstrap -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > 
@@ -27,49 +27,83 @@ if(@$_GET['error'] == 't'){
 
       <!-- Faz referência a icone IGD -->
       <link rel="SHORTCUT ICON" href="../imagem/iconelink.ico">
-    
-        
-	</head>
-   
-  <body id="tudo" style="background-color: gainsboro;">
-    <div id="corpo">
-      <img id="imgfundo" src="../imagem/fundo.png">
-      <img id="logogrupo" src="../imagem/logogpnovo.png">
 
-      <form class="form-signin" method="POST" action="..\Control\controlebd.php">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+      <link rel = "preconnect" href = "https://fonts.googleapis.com">
+      <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+      <link href = "https: //fonts.googleapis.com/css2? family = Teko: wght @ 700 & display = swap "rel =" stylesheet ">
+      <script src="https://kit.fontawesome.com/ee48b3351c.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        
+  </head>
+   
+  <body>
+
+    <header>
+      <img src="../imagem/logogpnovo">
+    </header>
+
+    <div class="formCentral">
+    <form class="form-signin" method="POST" action="..\Control\controlebd.php">
       <div id="form" class="modal-dialog" role="document" id="entraModa">
         <div class="modal-content">
           <div class="modal-header">
-            <h3 class="modal-title" id="exampleModalLabel"><font face="Verdana"><font size = "5"><b>Bem-Vindo(a) à Intranet Grupo Dupont!</b></font></font></h3>
+            <center><h3 class="modal-title" id="exampleModalLabel">Bem-Vindo(a) à Intranet Grupo Dupont!</h3></center>
           </div>
         
-        <div id="login" class="modal-body">
-           <!-- Campo E-mail - Start -->     
-          <div class="form-group">
-            <label for="recipient-email" class="col-form-label">E-mail</label>
-              <input type="text" class="form-control" name="usuario" id="recipient-email" required>                   
-          </div>
-           <!-- Campo E-mail - End -->
+      <div id="login" class="modal-body">
+      <!-- Campo E-mail - Start -->     
+        <div class="form-group">
+          <label for="recipient-email" class="col-form-label">E-mail</label>
+            <input type="text" class="form-control" name="usuario" id="recipient-email" required>                   
+        </div>
+      <!-- Campo E-mail - End -->
            
-           <!-- Campo Senha - Start -->
-          <div class="form-group">
-            <label for="recipient-pass" class="col-form-label">Senha</label>
-              <input type="password" class="form-control" name="senha" id="recipient-pass" required>
+      <!-- Campo Senha - Start -->
+        <div class="form-group">
+          <label for="recipient-pass" class="col-form-label">Senha</label>
+          <div class="senha">
+            <input type="password" class="form-control" name="senha" id="recipient-pass" required>
+            <i class="fa-solid fa-eye" id="olhoAberto" onClick="mostrarOcultarSenha()" onclick="alteraImg()"></i>
+            <i class="fa-solid fa-eye-slash" id="olhoFechado" onClick="mostrarOcultarSenha()" onclick="alteraImg()"></i>
           </div>
-          <!-- Campo Senha - End -->
         </div>
-          <!-- Botão Acessar - Star -->
-          <div class="modal-footer">
-            <button type="submit"  class="btn btn-secondary" id="entrarHome">Acessar</button>           
-          </div>
-          <!-- Botão Acessar - End -->
+      <!-- Campo Senha - End -->
         </div>
+      <!-- Botão Acessar - Star -->
+        <div class="modal-footer">
+          <button type="submit"  class="btn btn-secondary" id="entrarHome">Acessar</button>           
+        </div>
+      <!-- Botão Acessar - End -->
       </div>
+    </div>
       <!-- Tela de login - End -->
-      </form>
+    </form>
 
     </div>
 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+      function mostrarOcultarSenha(){
+      var senha = document.getElementById("recipient-pass");
+      if(senha.type=="password"){
+        senha.type="text";
+      }else{
+        senha.type="password"
+      }
+    }
+
+      function alteraImg(){
+        document.getElementById('olhoFechado').show();
+      }
+    </script>
   </body>
 </html>
 

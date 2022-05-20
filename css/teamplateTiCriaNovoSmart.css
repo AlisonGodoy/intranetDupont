@@ -1,0 +1,18 @@
+body{
+	background-image: url(../imagem/fundo6);
+}
+
+#novoSmartModal{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: Oswald;
+	color: midnightblue;
+}
+
+.modal-content{
+	background-color: gainsboro;
+	border: 2px solid;
+	border-color: black;
+}

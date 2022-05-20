@@ -1,136 +1,119 @@
-body{
-  height: 950px;
-  width: 100%;
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Oswald;
+
+  }
+
+a{
+  text-decoration: none;
 }
 
+ul{
+  list-style-image: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+body{
+background-image: url(../imagem/fundo);
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#opcoes{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1000px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+#fundoGrupo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 30%;
+
+}
+
+footer{
+  font-family: Oswald;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;;
+  background: #062F78;
+  text-decoration: none;
+}
+
+footer a{
+  text-decoration: none;
+  color:  #FFFFFF;
+  font-size: 40;
+}
+ 
+@media only screen and (max-width: 600px) {
+
+
+header{
+  width: 100%;
+}
 
 #selecionesetor{
-  margin-top: -900px;
-  height: 70px;
-  width: 650px;
-}
-
-#corpo{
-  height: 100%;
   width: 100%;
 }
 
-#imgfundo{
-  width: 100%; 
-  height: 950px;
-}
-
-#figuralogistica{
-  width: 150px;
-  height: 150px;
-  margin-top: -1000px;
-
-}
-
-#iconelogistica{
+header img{
   width: 100%;
-  height: 100%;
-  margin-left: -75px;
 }
 
 
-#figurasetorti{
-  width: 150px;
-  height: 150px;
-  margin-top: -250px;
+#opcoes{
+width: 100%;
+}
+
+#fundoGrupo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
-#iconesetorti{
-  width: 100%;
-  height: 100%;
-  margin-left: -75px;
+footer{
+  font-family: Oswald;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;;
+  background: #062F78;
+  text-decoration: none;
 }
 
-#figuracomercial{ 
-  width: 150px;
-  height: 150px;
-  margin-top: -250px;
-
+footer a{
+  text-decoration: none;
+  color:  #FFFFFF;
+  font-size: 40;
 }
 
-#iconecomercial{
-  width: 100%;
-  height: 100%;
-    margin-left: -75px;
-}
-
-#figurafinanceiro{ 
-  width: 150px;
-  height: 150px;
-  margin-top: -250px;
-
-}
-
-#iconefinanceiro{
-  width: 100%;
-  height: 100%;
-    margin-left: -75px;
-}
-
-
-#figuragrupo{ 
-  width: 550px;
-  height: 300px;
-  margin-top: -10px;
-
-  filter: opacity(10%);
-}
-
-#logogrupo{
-  width: 100%;
-  height: 100%;
-  margin-left: 420px;
-}
-
-button{
-  margin-top: -527px;
-  margin-left: 1200px;
-}
-
-.bt{ position: absolute;
-  width: 60px;
-  height: 45px;
-}
-
-#teste{
-  width: 20px;
-  height: 20px;
-}
-
-.bt {
-border:3px solid;
-border-radius:10px;
-display:inline-block;
-cursor:pointer;
-font-family:Candara;
-font-weight: bolder;
-font-size:18px;
-padding:6px 10px;
-text-decoration:none;
-border-color: black;
-background: white;
-color:rgb(12,60,96);
-text-shadow:0px 1px 0px gainsboro;
-}
-
-.bt:hover,
-.bt:focus{
-  filter: opacity(10%);
 }
 
 /*-------------------------ANIMAÇÕES---------------------------------------*/
 #figuralogistica{
-  width: 150px;
-  height: 150px;
-  margin-top: -800px;
-  margin-left: 375px;
-
   animation-duration: 2s;
   animation-name: fadein;
   animation-iteration-count: finite;
@@ -138,16 +121,11 @@ text-shadow:0px 1px 0px gainsboro;
 
 #figuralogistica:hover,
 #figuralogistica:focus{
-  filter: opacity(10%);
+  filter: opacity(40%);
 }
 
 
 #figurasetorti{ 
-  width: 150px;
-  height: 150px;
-  margin-top: -150px;
-  margin-left: 575px;
-
   animation-duration: 2s;
   animation-name: fadein;
   animation-iteration-count: finite;
@@ -156,16 +134,11 @@ text-shadow:0px 1px 0px gainsboro;
 
 #figurasetorti:hover,
 #figurasetorti:focus{
-   filter: opacity(10%);
+   filter: opacity(40%);
 }
 
 
 #figuracomercial{ 
-  width: 150px;
-  height: 150px;
-  margin-top: -150px;
-  margin-left: 775px;
-
   animation-duration: 2s;
   animation-name: fadein;
   animation-iteration-count: finite;
@@ -175,15 +148,10 @@ text-shadow:0px 1px 0px gainsboro;
 
 #figuracomercial:hover,
 #figuracomercial:focus{
-  filter: opacity(10%);
+  filter: opacity(40%);
 }
 
 #figurafinanceiro{ 
-  width: 150px;
-  height: 150px;
-  margin-top: -150px;
-  margin-left: 975px;
-
   animation-duration: 2s;
   animation-name: fadein;
   animation-iteration-count: finite;
@@ -193,8 +161,19 @@ text-shadow:0px 1px 0px gainsboro;
 
 #figurafinanceiro:hover,
 #figurafinanceiro:focus{
-  filter: opacity(10%);
+  filter: opacity(40%);
 }
+
+#figuraBiblioteca:hover,
+#figuraBiblioteca:focus{
+  filter: opacity(40%);
+}
+
+#figuraRelatoriosComerciais:hover,
+#figuraRelatoriosComerciais:focus{
+  filter: opacity(40%);
+}
+
 
 
 
@@ -233,3 +212,19 @@ opacity:0;
 animation: fadeIn 0.5s linear; 
 animation-fill-mode:forwards; 
 animation-delay:0.6s;}
+
+.fadeImg5 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay:0.8s;}
+
+.fadeImg6 {
+opacity:0;
+animation: fadeIn 0.5s linear; 
+animation-fill-mode:forwards; 
+animation-delay:1s;}
+
+
+
+

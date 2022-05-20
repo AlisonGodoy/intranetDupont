@@ -74,43 +74,27 @@ body{
 }
 
 #opc1{
-  width: 150px;
-  height: 150px;
-  margin-left: 600px;
-  margin-top: -150px;
+  width: 300px;
+  height: 250px;
+  margin-left: 500px;
+  margin-top: -110px;
   position: absolute;
+  filter: contrast(300%);
 }
 
-#opcao1{
-  width: 100%;
-  height: 100%;
-  filter: sepia(150%);
-}
 
 #imgLogo{
-  width: 110px;
-  height: 110px;
-  margin-top: -130px;
+  width: 100%;
+  height: 100%;
+  margin-top: -100px;
   margin-left: 20px;
   cursor: pointer;
 }
 
-#opc1:hover{
-  filter: opacity(60%);
-}
+/*#opc1:hover{
+  filter: contrast(250%);
+}*/
 
-
-#escritaLoad{
-  width: 350px;
-  height: 80px;
-  margin-left: 500px;
-  filter: contrast(200%);
-}
-
-#loadEscrito{
-  width: 100%;
-  height: 100%;
-}
 
 
 #opc2{
@@ -121,48 +105,7 @@ body{
   position: absolute;
 }
 
-#opcao2{
-  width: 100%;
-  height: 100%;
-}
 
-#opc2:hover{
-  filter: opacity(60%);
-}
-
-#opc3{
-  width: 150px;
-  height: 150px;
-  margin-left: 700px;
-  margin-top: -150px;
-  position: absolute;
-}
-
-#opcao3{
-  width: 100%;
-  height: 100%;
-}
-
-#opc3:hover{
-  filter: opacity(60%);
-}
-
-#opc4{
-  width: 150px;
-  height: 150px;
-  margin-left: 900px;
-  margin-top: -150px;
-  position: absolute;
-}
-
-#opcao4{
-  width: 100%;
-  height: 100%;
-}
-
-#opc4:hover{
-  filter: opacity(60%);
-}
 
 
 @keyframes fadeIn {

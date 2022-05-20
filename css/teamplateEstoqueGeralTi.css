@@ -1,0 +1,153 @@
+/*RESET*/
+*{
+    width: 100%;
+    height: auto;
+    font-family: 'Oswald';
+    text-decoration:none;
+    list-style:none;
+}
+
+/*CABEÇALHO*/
+.cabecalho{
+	width: 100%;
+}
+
+.menu{
+    background: linear-gradient(to right, #062F78,#7A93BC);
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    padding: 0.3%;
+}
+    
+    
+.menu li a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    padding: 2% 0%;
+}
+
+.menu li a:hover{
+    background:#B0CAD9;
+    color:gray;
+    text-shadow:0px 0px 3px white;
+    border-radius: 30px;
+}
+    
+    
+#botTiEstoque{
+    color:white;
+    text-shadow:0px 0px 3px #fff;
+    border-radius: 30px;
+}
+    
+#botTiEstoque a{
+    background:#B0CAD9;
+    color:gray;
+    text-shadow:0px 0px 3px #fff;
+    border-radius: 30px;
+}
+    
+/*TÍTULO*/   
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 20px;
+}
+    
+.titulo h1{
+    color: midnightblue;
+    padding: 2% 0%;
+    background-color: gainsboro;
+    border: 2px inset;
+    border-radius: 15px;
+    width: 80%;
+}
+
+
+/*TABELA*/
+.divTabela{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-right: 2%;
+    margin-left: 2%; 
+}
+.titulosTabela{
+    background-color: #062F78;
+    color: white;
+    border: 2px solid black;
+}
+.titulosTabela:nth-child(1){
+    width: 10%;
+}
+.titulosTabela:nth-child(2){
+    width: 30%;
+}
+.titulosTabela:nth-child(3){
+    width: 30%;
+}
+.titulosTabela:nth-child(4){
+    width: 20%;
+}
+.item{
+    text-align: center;
+    color: navy;
+    border: 2px solid black;
+}
+
+.botoes{
+    width: 12px;
+    height: 12px;
+}
+
+.item:nth-child(1){
+    width: 10%;
+}
+.item:nth-child(2){
+    width: 30%;
+}
+.item:nth-child(3){
+    width: 30%;
+}
+.item:nth-child(4){
+    width: 20%;
+}
+
+@media only screen and (min-width: 768px){
+    .menu{
+        padding: 1% 0%;
+        font-size: 1.4em;
+    }
+
+    .titulo h1{
+        width: 40%;
+    }
+
+    table{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .titulosTabela{
+        font-size: 1.2em;
+    }
+
+
+    .divBotoes{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .botoes{
+        width: 17px;
+        height: 17px;
+    }
+}

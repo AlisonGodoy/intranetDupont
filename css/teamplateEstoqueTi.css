@@ -1,0 +1,102 @@
+body{
+	background-image: url(../imagem/fundo);
+}
+
+.cabecalho{
+	width: 100%;
+}
+
+.menu{
+background: linear-gradient(to right, #062F78,#7A93BC);
+display: flex;
+font-family: Oswald;
+list-style:none;
+justify-content: center;
+font-size: 1em;
+padding: 0.3%;
+}
+
+
+.menu li a{color:white; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#B0CAD9;
+color:gray;
+text-shadow:0px 0px 3px white;
+border-radius: 30px;
+}
+
+
+#botTiEstoqueSmarts{
+color:white;
+text-shadow:0px 0px 3px #fff;
+border-radius: 30px;
+}
+
+#botTiEstoqueSmarts a{
+background:#B0CAD9;
+color:gray;
+text-shadow:0px 0px 3px #fff;
+border-radius: 30px;
+
+}
+
+
+section{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: Oswald;
+	font-weight: 20px;
+}
+
+section h1{
+	color: midnightblue;
+	padding: 2%;
+	background-color: gainsboro;
+	border: 2px inset;
+	border-radius: 15px;
+}
+
+
+.divTabela{
+	display: flex;
+	justify-content: center;
+}
+
+
+table{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+tr td{
+	background-color: white;
+	border: 2px solid;
+	font-family: Oswald;
+	font-size: 18;
+}
+
+tr th{
+	background-color: gainsboro;
+	border: 2px solid;
+
+}
+
+
+#tituloCodSmart	 {border: 2px solid;background-color: #042D7C; color:white;border-color: black;}
+#tituloMarca	 {border: 2px solid;background-color: #042D7C;color: white;border-color: black;}
+#tituloModelo	 {border: 2px solid;background-color: #042D7C;color: white;border-color: black;}
+#tituloQuantidade{border: 2px solid;background-color: #042D7C;color: white;border-color: black;}
+
+
+@media only screen and (min-width: 768px){
+	.menu{
+		font-size: 20;
+	}
+}

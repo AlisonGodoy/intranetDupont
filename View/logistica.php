@@ -1,7 +1,7 @@
 <?php
 
 include('../Control/controleSession.php');
-      
+
 ?>
 
 <html>
@@ -52,10 +52,8 @@ include('../Control/controleSession.php');
 
 				<div id="opc1" class="FadeIn">
 					<a href="http://localhost/intranetgd/View/selectMes">
-					<img id="opcao1" src="../imagem/circulovazio.png"></a>
-					<img id="imgLogo" src="../imagem/logoLoadSafe.png">
+					<img id="imgLogo" src="../imagem/logoloadsafeofc.png">
 				</div>
-				<div id="escritaLoad" class="fadeImg2"><img id="loadEscrito" src="../imagem/LSEscrito.png"></div>
 
 				<!--<div id="opc2">
 					<a id="botcontrlcarga" href="http://localhost/intranetgd/View/logCargas">

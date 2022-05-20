@@ -8,6 +8,7 @@ include('../Control/controleSession.php');
 	<head>
 		<meta charset="UTF-8"/>
 	    <title>Suporte TI</title>
+        <link rel="SHORTCUT ICON" href="../imagem/iconelink.ico">
 
         <!-- Faz referência a biblioteca Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > 
@@ -25,7 +26,7 @@ include('../Control/controleSession.php');
         <link rel="stylesheet" href="../css/teamplateTi.css" >
 	</head>
 
-	<iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiNTk5YTQ1Y2ItOTc0Ny00YmIwLThkOGUtYjk0NTc2MjFlZGE0IiwidCI6IjIwMmU1YmIyLTZjZGUtNDlmZi04N2ViLTQ1ODhjYWIxMjI4ZSJ9" frameborder="0" allowFullScreen="true"></iframe>
+	<iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiNTk5YTQ1Y2ItOTc0Ny00YmIwLThkOGUtYjk0NTc2MjFlZGE0IiwidCI6IjIwMmU1YmIyLTZjZGUtNDlmZi04N2ViLTQ1ODhjYWIxMjI4ZSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
 	</body>
 </html>

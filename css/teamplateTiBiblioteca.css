@@ -1,0 +1,98 @@
+/*RESET*/
+*{
+	font-family: Oswald;
+}
+
+/*BODY*/
+
+body{
+	background-image: url(../imagem/fundoBiblioteca);
+	background-repeat: no-repeat;
+}
+
+/*TITULO*/
+.cabecalho{
+	width: 100%;
+	text-align: center;
+}
+
+/*CONTAINER*/
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+
+/*TABELA*/
+.tabelaBiblioteca{
+  width: 100%;
+}
+
+.tituloTabela{
+	text-align: center;
+	border: 2px solid;
+	background-color: midnightblue; 
+	color:white;
+	border-color: black;}
+
+.tabelaBiblioteca th input{
+	width: 100%;
+}
+
+table tr td{
+	background-color: white;
+	border: 2px solid;
+	font-family: Oswald;
+	text-align: center;
+}
+
+table tr th{
+	background-color: gainsboro;
+	border: 2px solid;
+	color: black;
+
+}
+
+footer{
+  text-align: center;
+  background: #062F78;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 2% 0%;
+}
+
+footer a{
+  text-decoration: none;
+  color:  #FFFFFF;
+  font-size: 1em;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+.cabecalho h1{
+	font-size: 3em;
+}
+
+table tr td{
+	padding: 0.5% 0%;
+	font-size: 1.3em;
+}
+
+footer{
+  text-align: center;
+  padding: 1% 0%;
+  background-color: #191970;
+  background: #062F78;
+}
+
+footer a{
+  text-decoration: none;
+  color:  #FFFFFF;
+  font-size: 1em;
+}
+
+
+}

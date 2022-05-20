@@ -1,39 +1,68 @@
-#corpo{
-	height: 950px;
-	widows: 100%;
+body{
+  background-image: url(../imagem/fundo);
 }
 
-#imgfundo{
-  width: 100%; 
-  height: 950px;
+ header{ 
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-
-#logogrupo{
-	width: 650px;
-	height: 350px;
-	margin-top: -950px;
-	margin-left: 400px;
-}
-
-#login{
-	margin-top: 0px;
-}
-
-#form{
-	margin-top: -600px;
+header img{
+  width: 65%;
 }
 
 
-.modal-dialog{
-	margin-top: 10px;
-	margin-right:320px;
+.formCentral{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
+
+.formCentral form{
+  width: 70%;
+}
+
+.formCentral form h3{
+  font-size: 2em;
+}
+
+
+h3{
+  font-family: Oswald;
+  font-size: 2.5em;
+}
+
+label{
+  font-family: Oswald;
+}
+
+.senha{display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.senha input{
+  width: 90%;
+}
+
+.senha i{
+  margin-top: 4%;
+  margin-left: 2%;
+  float: right;
+}
+
+#olhoFechado{
+  display: none;
+}
+
+
 
 button {
   color: white;
-  background: navy;
+  background: midnightblue;
   transition: background 1s;
+  font-family: Oswald;
 }
 
 button:hover,
@@ -41,5 +70,23 @@ button:focus {
   background: gray;
 }
 
+@media only screen and (min-width: 768px){
 
+  header img{
+    width: 30%;
+  }
 
+  .formCentral form{
+    width: 100%;
+  }
+
+  .formCentral form h3{
+    font-size: 2em;
+  }
+
+  .senha i{
+    cursor: pointer;
+    margin-top: 2%;
+  }
+
+}
