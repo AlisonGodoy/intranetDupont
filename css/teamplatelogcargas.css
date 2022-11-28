@@ -1,170 +1,314 @@
-header{
-  width: 100%;
-  height: 70px;}
-
-#espaço{
-  height: 10px;
+nav{
+  text-align: center;
+  padding: 10px;
+  background: #062F78;
 }
 
-#logoloadsafe{
-  width: 200px;
-  height: 80px;
-  margin-left: 19px;
+#filtroDataFaturamento{
+width: 140px;
+margin-top: 10px;
+padding-left: 4px;
+border-left: 4px solid #CCC;
 }
 
-#imgAno{
-  width: 80px;
-  height: 30px;
-  margin-left: 980px;
+th{
+  color:  black;
+  height: 70px;
+  max-width: 106.5px;
+  background-color: #989FA7;
+  border: 1px solid #ffffff;
+  font-size: 10px;
+  font-weight: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+  table-layout: fixed;
 }
 
-#menu{
-  width: 100%;
-  height: 65px;
-  border: 2px solid;
-}
-
-
-#figbotmais{
-  width: 30px;
-  height: 30px;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-#insertCarga{
-  width: 100%;
-  height: 100%;
-  margin-left: 15px;
-  cursor: pointer;
-  filter: contrast(40%);}
-
-#insertCarga:hover{
-  filter: opacity(60%);
-}
-
-#blockInsert{
-  width: 100%;
-  height: 100%;
-  margin-left: 15px;
-}
-
-#figbotexpedicao{
-  width: 30px;
-  height: 30px;
-  margin-top: -30px;
-  margin-left: 120px;
-}
-
-#botexpedicao{
-  width: 100%;
-  height: 100%;
-  margin-left: 15px;
-}
-
-#botexpedicao:hover{
-  filter: opacity(60%);
-}
-
-#figbotcargaprd{
-  width: 30px;
-  height: 30px;
-  margin-top: -30px;
-  margin-left: 215px;
-}
-
-#botcargaprd{
-  width: 100%;
-  height: 100%;
-  margin-left: 30px;
-}
-
-#botcargaprd:hover{
-  filter: opacity(60%);
-}
-
-#figbotbase{
-  width: 30px;
-  height: 30px;
-  margin-top: -30px;
-  margin-left: 335px;
-}
-
-#botbase{
-  width: 100%;
-  height: 100%;
-  margin-left: 40px;
-}
-
-#botbase:hover{
-  filter: opacity(60%);
-}
-
-#figbotcalendar{
-  width: 30px;
-  height: 30px;
-  margin-top: -30px;
-  margin-left: 475px;
-}
-
-#botcalendar{
-  width: 100%;
-  height: 100%;
-  margin-left: 30px;
-}
-
-#botcalendar:hover{
-  filter: opacity(60%);
-}
-
-#figbotsair{
-  width: 30px;
-  height: 30px;
-  margin-top: -30px;
-  margin-left: 1300px;
-}
-
-#botsair{
-  width: 100%;
-  height: 100%;
-}
-
-#botsair:hover{
-  filter: opacity(60%);
-}
-
-figcaption{
-  width: 150px;
-  font-family: Candara;
-}
-
-.form-mes{
-  width: 250px;
-  height: 160px;
-  border: 2px solid;
-  background-color: gainsboro;
-
-}
-
-#tabelaprincipal{
-  border: 3px solid;
-  width: 200px;
-  height: 100px;
-}
-
-td{
-   border: 1px solid;
-}
-
-tr{
-  background-color: gainsboro;
-  border: 1px solid;
-}
+        td {
+        border: 1px solid #ffffff;
+        color: #5d5d5d;
+        font-size: 9.25px;
+        font-weight: normal;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        background-color: #efeeee;
+        text-align: center;
+        table-layout: fixed;
+        height: 85px;
+        transition: height 0.4s;
+        max-width: 106.5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: pre-wrap;
+        transition: all ease 0.7s;
+        }
 
 #espaço2{
   height: 30px;
 }
+
 h1{
   margin-left: 600px;
   margin-top: -48px;
 }
+
+.inputFiltro {
+
+  max-width: 106.5px;
+
+}
+
+  figure {
+    margin-top: 1px;
+  }
+
+  .criar-carga {
+    display: inline-block;
+    margin-left: 400px;
+  }
+  
+  .criar-operacao {
+    display: inline-block;
+    margin-left: 60px;
+  }
+
+  .criar-regiao {
+    display: inline-block;
+    margin-left: 60px;
+  }
+
+  .criar-status {
+    display: inline-block;
+    margin-left: 60px;
+  }
+  
+  figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .criar-carga img, .criar-operacao img, .criar-regiao img, .criar-status img{
+    height: 40px;
+    width: 35px;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  button {
+    cursor: pointer;
+    font-size: 12pt;
+  }
+
+  .botAbrir {
+    opacity: 100;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+
+  #botCancelar {  
+    display: block;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: -7px;
+    float: right;
+    border: none;
+    margin-right: 4px;
+    border-radius: 5px;
+  }
+
+  #botSalvar {  
+    display: block;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: -7px;
+    float: right;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .modal-cont{
+    display: none;  
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-cont.mostrar{
+    display: flex;
+  }
+
+  .modal-fechar{
+    display: none;  
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0);
+    z-index: 20;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-fechar.mostrar-dois{
+    display: flex;
+  }
+
+  .modalFechar{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 500px;
+    height: 180px;
+    min-width: 300px;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 2px;
+    border-top-width: 30px;
+    border-color: black;
+    z-index: 10;
+  }
+
+  .modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    min-width: 300px;
+    background-color: lightgray;
+    /*background: linear-gradient(to bottom, rgb(156, 203, 247), rgb(162, 196, 235));*/
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    z-index: 10;
+  }
+
+  @keyframes modal{
+    
+    to{
+      opacity: 0;
+      top: 0;
+    }
+    from{
+      opacity: 1;
+    }
+  }
+
+  .mostrar .modal{
+    transition: modal 0.5s;
+  }
+
+
+  .modal h1 {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 16pt;
+    text-align: center;
+    border: 2cm;
+    border-color: #fff;
+  }
+
+  
+
+  .modal input {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-bottom: 20px;
+    vertical-align: baseline;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .modal input.disable, .modal label.disable, .modal select.disable{
+    opacity: .4;
+    pointer-events: none;
+  }
+
+  select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+
+  }
+
+
+  #vpq input{
+    width: 100px;
+    vertical-align: baseline;
+  }
+
+  #dataFat {
+    width: 400px;
+  }
+
+  label {
+    display: inline-block;  
+    color: black;
+    margin: 0%;
+  }
+
+  #valor, #peso, #quant {
+    margin-left: -4px;
+  }
+
+  #top label{
+    text-align: center;
+    width: 100px;
+    white-space: nowrap;
+    margin-top: 10px;
+  }
+
+  #top select, #top input{
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  .modal-body label{
+    align-content: center;
+    width: 150px;
+    text-align: left;
+  }
+
+  .modal-body input{
+    width: 300px;
+    text-align: center;
+    white-space: nowrap;
+
+  }
+  
+
+  #numCarga {
+    display: flex;
+    float: right;
+    margin-top: 17px;
+    margin-right: 15px;
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  #modalEditar .modal .modal-body input{
+    width: 150px;
+  }

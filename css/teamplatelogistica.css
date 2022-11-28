@@ -15,116 +15,86 @@ body{
 
 
 #titulolog{
-  width: 100%;
-  height: 700px;
+  width: 52%;
+  height: 100px;
+  margin: 3%;
+  margin-left: 37.5%;
+  margin-top: 1.5%;
+  color: white;
+  opacity: 4;
+  font-size: 60px;
+  font-family: ;
+  font-style: italic;
+  font-weight: bold;
 }
 
 #escrtlog{
   width: 100%;
-  height: 700px;
-  margin-top: -950px;
-  filter: opacity(80%);
-  }
+  height: 97px;
+  margin-top: -941px;
+  position: absolute;
+  background: #062F78;
+}
 
 
-#escrtselec{
-  width: 850px;
-  height: 450px;
-  margin-top: -700px;
-  margin-left: 250px;
-  }
+#escrtselec {
+  width: 309px;
+  height: 110px;
+  margin-top: -844px;
+  margin-left: 540px;
+  position: absolute;
+  font-family: Fantasy, sans-serif;
+  color: balck;
+}
 
 #escritaselecione{
   width: 100%;
   height: 100%;
 }
 
-#botvoltar{
-  width: 125px;
-  height: 75px;
-  margin-top: -375px;
-  margin-left: 1075px;
-  position: absolute;
-}
-
-#voltarlog{
-  width: 100%;
-  height: 100%;
-}
-
-#botvoltar:hover{
-  filter: opacity(70%);
-}
-
-#botsair{
-  width: 115px;
-  height: 70px;
-  margin-top: -370px;
+#botvoltar {
+  width: 76px;
+  height: 31px;
+  margin-top: -874px;
   margin-left: 1190px;
   position: absolute;
 }
+#botsair{
+  width: 50px;
+  height: 32px;
+  margin-top: -874px;
+  margin-left: 1290px;
+}
 
-#sairlog{
-  width: 100%;
-  height: 100%;
+#botvoltar:hover{
+  filter: opacity(100%);
 }
 
 #botsair:hover{
   filter: opacity(70%);
 }
 
-#opc1{
-  width: 300px;
-  height: 250px;
-  margin-left: 500px;
-  margin-top: -110px;
-  position: absolute;
-  filter: contrast(300%);
+a{
+color: white;
+font-size: 15px;
+position: absolute;
+font-weight: bold;
 }
-
 
 #imgLogo{
-  width: 100%;
-  height: 100%;
-  margin-top: -100px;
-  margin-left: 20px;
+  width: 100px;
+  height: 127px;
+  left: 50%;
+}
+
+#loadsafe{
+  width: 234px;
+  height: 135px;
+  margin-left: 237%;
+  margin-top: 80%;
+  border-radius: 25px;
+  background: whitesmoke;
+  box-shadow: -0.6em 0 0.8em rgb(30 28 28);
   cursor: pointer;
+  filter: opacity(100%);
 }
-
-/*#opc1:hover{
-  filter: contrast(250%);
-}*/
-
-
-
-#opc2{
-  width: 150px;
-  height: 150px;
-  margin-left: 500px;
-  margin-top: -150px;
-  position: absolute;
-}
-
-
-
-
-@keyframes fadeIn {
-0% { opacity: 0; }
-100% { opacity: 1; }
-}
-
-.fadeIn {
-animation: fadeIn 0.5s ease-in-out;
-}
-
-.fadeImg {
-opacity:0;
-animation: fadeIn 0.5s ease-in-out; 
-animation-fill-mode:forwards;}
-
-
-.fadeImg2 {
-opacity:0;
-animation: fadeIn 0.5s linear; 
-animation-fill-mode:forwards; 
-animation-delay: 0.2s;}
