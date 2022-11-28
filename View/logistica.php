@@ -32,46 +32,32 @@ include('../Control/controleSession.php');
 				<img id="imgfundo" src="../imagem/fundolog.png">
 		
 				<div id="escrtlog">
-					<img id="titulolog" src="../imagem/titulologistica.png">
+					<h1 id="titulolog">LOGÍSTICA</h1>
 				</div>
 
 				<div id="escrtselec">
-					<img id="escritaselecione" src="../imagem/selecioneopcao.png">
+					<h1 id="escritaselecione">Selecione a opção:</h1>
 				</div>
 
 				<div id="botvoltar">
-					<a href="../View/setores.php">
-					<img id="voltarlog" src="../imagem/voltarlog.png"></a>
+					<a href="../View/setores.php">VOLTAR</a>
 				</div>
 
 				<div id="botsair">
-					<a href="../Control/logout.php">
-					<img id="sairlog" src="../imagem/sairlog.png"></a>
+					<a href="../Control/logout.php">SAIR</a>			
 				</div>
 
+<?php
 
-				<div id="opc1" class="FadeIn">
-					<a href="http://localhost/intranetgd/View/selectMes">
-					<img id="imgLogo" src="../imagem/logoloadsafeofc.png">
+	$P_Dia = date("Y-m-01");
+	$U_Dia = date("Y-m-t");
+	$page  = 0;
+	
+?>
+				<div id="imgLogo" class="FadeIn">
+					<a href="http://localhost/intranetgd/View/logControleCargas.php?dataInicio=<?php echo $P_Dia;?>&&dataFim=<?php echo $U_Dia;?>&&page=<?php echo $page;?>">
+					<img id="loadsafe" src="../imagem/logoloadsafeofc.png">
 				</div>
-
-				<!--<div id="opc2">
-					<a id="botcontrlcarga" href="http://localhost/intranetgd/View/logCargas">
-					<img id="opcao2" src="../imagem/circulovazio.png"></a>
-				</div>
-
-				<div id="opc3">
-					<a id="botcontrlcarga" href="http://localhost/intranetgd/View/logCargas">
-					<img id="opcao3" src="../imagem/circulovazio.png"></a>
-				</div>
-
-
-				<div id="opc4">
-					<a id="botcontrlcarga" href="http://localhost/intranetgd/View/logCargas">
-					<img id="opcao4" src="../imagem/circulovazio.png"></a>
-				</div> -->
-
-
-			</div>
+			</div>		
 		</body>
 </html>
